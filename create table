@@ -1,0 +1,7 @@
+INSERT INTO STUDENT (sname,sid)VALUES('himanshukumar',23)
+CREATE table Clint_Master(colum_Name VARCHAR2(20), Datatype VARCHAR2(10), ssize NUMBER(20));
+select * from student
+INSERT INTO Clint_Master(colum_Name,Datatype,ssize)VALUES('pincode','vharchr',3)
+
+
+SELECT * FROM Clint_Master
