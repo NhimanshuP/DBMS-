@@ -8,3 +8,7 @@ create table marks(STUDENTID  number constraints stu_id_fk references bache(id),
  insert into marks(STUDENTID,marksScored) VALUES(2,7)
  select * from marks
  drop table bache
+  create table persentag2(STUDENTID number constraints pers2_id_fk references bache(id),marks1 number(10,5), persent number(10,10));
+ create table kamkyah(STUDENTID number con)
+ select * from persentag2
+ insert into persentag2(STUDENTID,marks1,persent) VALUES(2,.5,.6)
