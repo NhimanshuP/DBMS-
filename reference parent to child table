@@ -1,0 +1,10 @@
+create table bache(id number constraints bac_id_pk primary key)
+desc table bache;
+create table marks(STUDENTID  number constraints stu_id_fk references bache(id),
+ MarksScored nuMber(5,2));
+ INSERT INTO BACHE(ID) VALUES(2)
+ select * from bache
+ insert into bache(id) VALUES(42)
+ insert into marks(STUDENTID,marksScored) VALUES(2,7)
+ select * from marks
+ drop table bache
